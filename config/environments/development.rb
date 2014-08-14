@@ -35,6 +35,8 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  config.ember.variant = :development
+  # moved these back to engine after proving concept in application, but don't want them in app
+  #config.ember.variant = :development
+  #config.handlebars.templates_root = "emberengine/templates"
 
 end
